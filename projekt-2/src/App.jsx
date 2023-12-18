@@ -1,7 +1,7 @@
 import { useState } from "react";
 import "./App.css";
 import Navbar from "./Components/Navbar";
-import Home from "./Components/Home";
+
 import About from "./Components/About";
 import Food from "./Components/Food";
 import Cart from "./Components/Cart";
@@ -16,7 +16,6 @@ function App() {
     <>
       <div className="App">
         <Navbar />
-        <Home />
         <About />
         <Products />
         <Food />

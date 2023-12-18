@@ -1,0 +1,112 @@
+.products {
+  margin-top: -160px;
+  background-color: var(--bezh-1);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+.products-teil1 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+.products-teil1 p {
+  font-size: 2.5rem;
+  color: var(--black);
+  text-align: center;
+}
+.products-teil1 h3 {
+  font-size: 3rem;
+  color: var(--green-2);
+  line-height: 67px;
+}
+.products-teil2 {
+  display: flex;
+  flex-direction: row;
+  gap: 40px;
+}
+.buttons {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: var(--green-2);
+  font-size: 1.5rem;
+  padding: 5px;
+}
+.buttons button {
+  border: none;
+  padding: 10px;
+  font-size: 2rem;
+  background-color: var(--bezh-1);
+}
+.buttons:hover {
+  color: var(--black);
+  border-radius: 10px;
+  padding: 5px;
+  box-shadow: 0 4px 8px rgba(0.1, 0, 0, 0.4);
+}
+.products-teil3-foto {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 35px;
+  justify-content: center;
+  width: 80%;
+  margin: 40px;
+}
+
+.product-item {
+  width: 300px;
+  height: 400px;
+  background-color: var(--bezh-1);
+}
+
+/* .product-item:nth-child(4n + 1) {
+  background-color: var(--green-3);
+}
+.product-item:nth-child(4n + 2) {
+  background-color: var(--bezh-2);
+}
+.product-item:nth-child(4n + 3) {
+  background-color: var(--bezh-3);
+}
+.product-item:nth-child(4n + 4) {
+  background-color: var(--blau-3);
+} */
+.product-img {
+  width: 100%;
+  height: 280px;
+  box-shadow: 0 4px 8px rgba(0.1, 0, 0, 0.1);
+}
+.product-img img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.product-price-name {
+  padding: 30px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.products-name-price {
+  font-size: 1.2rem;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  color: var(--green-2);
+}
+.products-buy button {
+  border: none;
+  border-radius: 50%;
+  background-color: var(--green-1);
+  padding: 10px;
+  font-size: 1.4rem;
+}
+.products-buy button:hover {
+  box-shadow: 0 4px 8px rgba(0.4, 0, 0, 0.4);
+}
